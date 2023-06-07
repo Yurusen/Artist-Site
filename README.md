@@ -9,7 +9,7 @@
 	<div id="title">
 		<h1>Welcome to my Artist Page</h1>
 		<h2>Yurusen</h2>
-		<h3>07305432514</h4>
+		<h3>07305432514</h3>
 		<h3>ajaysasan2010@live.co.uk</h3>
 	</div>
 
