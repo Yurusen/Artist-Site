@@ -28,8 +28,7 @@
 	</div>
 
 	<div id="hero shot">
-		<img src="https://cdnb.artstation.com/p/assets/images/images/055/489/383/large/ajay-sasan-ajay-sasan-enviroment-03666.jpg?1667068877" alt="Image" width="1280" height="720">
-
+		<img src="https://cdnb.artstation.com/p/assets/images/images/055/489/383/large/ajay-sasan-ajay-sasan-enviroment-03666.jpg?1667068877" alt="Image"/>
 		<p>Behold, a <em>mesmerizing 3D masterpiece</em> that transports you to a realm of fantasy and enchantment. This artwork unveils a <strong>captivating</strong> rainforest, where <strong>imagination</strong> flourishes amidst a <strong>breathtaking</strong> display of vibrant colors and fantastical elements.<br><br>
 
 		As you gaze upon the scene, you are greeted by towering spiral trees emanating a gentle glow, casting an <strong>ethereal ambiance</strong> upon the surroundings. The leaves, adorned with a <strong>lustrous</strong> metallic blue-green hue, sparkle and shimmer, captivating your senses. Nature's creativity knows no bounds as bright red and pink grass carpets the ground, while towering rainbow flowers resemble majestic palm trees, their hues spanning the spectrum of color.<br><br>
