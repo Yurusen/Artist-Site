@@ -2,22 +2,27 @@
 <html>
 <head>
 	<title>Yurusen Artist Page</title>
-</head>
+	</head>
 <body>
-	<header>
+	<header id="title">
+		<a href="./#.html"> 
+
+		<!--add link to homepage html-->
+
 		<h1>Welcome to my Artist Page</h1>
+		</a>
 		<h2>Ajay Sasan</h2>
 		<h3>Yurusen</h3>
 	</header>
 
-	<nav>
+	<nav id="links">
 		<ul>
-			<li>Homepage</li>
-			<li>About Me</li>
-			<li>Portfolio Gallery</li>
-			<li>Work in Progress (WIP)</li>
-			<li>Commissions</li>
-			<li>Contact Information</li>
+			<li><a href="#">Homepage</a></li>
+			<li><a href="#">About Me</a></li>
+			<li><a href="#">Portfolio Gallery</a></li>
+			<li><a href="#">Work in Progress (WIP)</a></li>
+			<li><a href="#">Commissions</a></li>
+			<li><a href="#">Contact Information<a></li>
 		</ul>
 	</nav>
 
@@ -31,6 +36,9 @@
 		<a href="https://www.artstation.com/artwork/d0NLQJ" target="_blank">
 		<img src="https://cdnb.artstation.com/p/assets/images/images/055/489/383/large/ajay-sasan-ajay-sasan-enviroment-03666.jpg?1667068877" alt="Hero-Shot (Image)" width="1280" height="720" arc="Hero Shot; Step into a world where imagination has no bounds"/>
 		</a>
+
+		<!--make sure image and video are the same dimensions-->
+
 		<p>Behold, a <em>mesmerizing 3D masterpiece</em> that transports you to a realm of fantasy and enchantment. This artwork unveils a <strong>captivating</strong> rainforest, where <strong>imagination</strong> flourishes amidst a <strong>breathtaking</strong> display of vibrant colors and fantastical elements.<br><br>
 
 		As you gaze upon the scene, you are greeted by towering spiral trees emanating a gentle glow, casting an <strong>ethereal ambiance</strong> upon the surroundings. The leaves, adorned with a <strong>lustrous</strong> metallic blue-green hue, sparkle and shimmer, captivating your senses. Nature's creativity knows no bounds as bright red and pink grass carpets the ground, while towering rainbow flowers resemble majestic palm trees, their hues spanning the spectrum of color.<br><br>
