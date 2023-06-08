@@ -22,7 +22,7 @@
 			<li><a href="#">Portfolio Gallery</a></li>
 			<li><a href="#">Work in Progress (WIP)</a></li>
 			<li><a href="#">Commissions</a></li>
-			<li><a href="#">Contact Information<a></li>
+			<li><a href="#">Contact Information</a></li>
 		</ul>
 	</nav>
 
