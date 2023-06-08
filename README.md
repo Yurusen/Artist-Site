@@ -28,7 +28,7 @@
 	</div>
 
 	<div id="hero shot">
-		<a href="https://cdnb.artstation.com/p/assets/images/images/055/489/383/large/ajay-sasan-ajay-sasan-enviroment-03666.jpg?1667068877">
+		<a href="https://www.artstation.com/artwork/d0NLQJ">
 		<img src="https://cdnb.artstation.com/p/assets/images/images/055/489/383/large/ajay-sasan-ajay-sasan-enviroment-03666.jpg?1667068877" alt="Image" width="1280" height="720" arc="Hero Shot; Step into a world where imagination has no bounds"/>
 		</a>
 		<p>Behold, a <em>mesmerizing 3D masterpiece</em> that transports you to a realm of fantasy and enchantment. This artwork unveils a <strong>captivating</strong> rainforest, where <strong>imagination</strong> flourishes amidst a <strong>breathtaking</strong> display of vibrant colors and fantastical elements.<br><br>
