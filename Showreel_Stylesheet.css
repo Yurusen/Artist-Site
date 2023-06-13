@@ -1,0 +1,41 @@
+body {
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/063/921/598/large/ajay-sasan-background-by-yurusen-dfzps9m-copy.jpg?1686684011);
+  font-family: papyrus;
+  color: whitesmoke;
+  margin: 0 auto;
+  text-align: center;
+  }
+
+  ul.taskbar li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 30px;
+  }
+  li {
+  font-size: 30px;
+  list-style-type: none;
+  }
+.links {
+  color: whitesmoke;
+  text-decoration: none;
+  }
+.links:hover {
+  color: goldenrod;
+}
+h1 {
+    font-size: 70px;
+     }
+.showreel {
+  color: whitesmoke;
+}
+.showreel:hover {
+  color: goldenrod;
+}
+h2 {
+  font-size: 50px;
+}
+figcaption {
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px
+}
