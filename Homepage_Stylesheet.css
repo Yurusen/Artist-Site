@@ -1,0 +1,63 @@
+body {
+  background-image: url('https://cdnb.artstation.com/p/assets/images/images/055/483/775/large/ajay-sasan-isra-01655.jpg?1667057244');
+  background-size: cover;
+  background-position: 0% 10%;
+  background-repeat: no-repeat;
+  font-family: papyrus;
+  color: whitesmoke;
+  }
+h1 {
+  font-size: 75px;
+  font-weight: bold;
+}
+.Artist-Page {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.Artist-Page:hover {
+  color: crimson;
+}
+h2 {
+  font-size: 65px;
+}
+
+
+nav.website_links a {
+  font-size: 30px;
+  padding: 10px;
+  list-style-type: none;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+nav.website_links ul {
+  list-style-type: none;
+  }
+
+nav.website_links li {
+  padding: 20px;
+}
+
+nav.website_links a:hover {
+  color: crimson;
+}
+
+.contact {
+  text-align: center;
+}
+
+nav.contact a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav.contact li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 30px;
+    font-size: 20px;
+    opacity: 50%;
+  }
+
+nav.contact a:hover {
+  color: goldenrod;
+}
