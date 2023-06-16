@@ -1,1 +1,140 @@
+body {
+background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/634fbcb6-ff52-49e3-b54c-9c22d0f9c456/dfzvfvm-e2195c99-9b5d-4035-99e4-41f7d3b1d0e5.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYzNGZiY2I2LWZmNTItNDllMy1iNTRjLTljMjJkMGY5YzQ1NlwvZGZ6dmZ2bS1lMjE5NWM5OS05YjVkLTQwMzUtOTllNC00MWY3ZDNiMWQwZTUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.yild6ZV_JJLLEWlKDCBiO6_KBdl1nAOia77mRdKnJts');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  font-family: courier;
+  color: whitesmoke;
+  margin: 0 auto;
+  text-align: center;
+  }
 
+
+nav.taskbar a {
+   display: inline-block;
+   color: whitesmoke;
+   font-size: 25px;
+   list-style-type: none;
+   color: whitesmoke;
+   text-decoration: none
+   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+
+  }
+nav.taskbar li {
+   margin-right: 10px;
+   padding: 25px;
+   display: inline-block;
+  }
+nav.taskbar ul li a {
+  text-decoration: none;
+}
+  
+nav.taskbar a:hover {
+  color: goldenrod;
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+
+
+
+
+h1 {
+    font-size: 70px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+     }
+h1:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+h2 {
+  font-size: 50px;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+
+.showreel {
+  color: whitesmoke;
+  text-decoration: none
+}
+.showreel:hover {
+  color: goldenrod;
+}
+
+figcaption {
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px
+}
+
+#profile {
+  width: 300px;
+  position: relative;
+  left: 200px;
+  top: 130px;
+  }
+.contact_section {
+  position: relative;
+  right: 200px;
+  bottom: 175px;
+  font-size: 20px;
+}
+.contact_section a {
+  color: whitesmoke;
+  text-decoration: none;
+
+}
+.contact_section a:hover {
+  color: goldenrod;
+}
+#CV {
+  font-size: 22.5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: slategrey;
+  color: whitesmoke;
+}
+#CV:hover {
+  background-color: darkslategrey;
+  color: goldenrod;
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+
+.stag {
+  width: 1080px;
+  height: auto; 
+  border: 4px solid black;
+}
+
+
+
+
+
+
+
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 50px;
+}
+nav.contact a {
+    color: lightgrey;
+    text-decoration: none;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+nav.contact li {
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: lightgrey;
+    opacity: 80%;
+    line-height: 1px;
+    }
+nav.contact a:hover {
+  color: goldenrod;
+}
