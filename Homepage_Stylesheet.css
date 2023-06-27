@@ -44,6 +44,10 @@ h2 {
   transform: translate(-50%, -50%);
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
 }
+a:hover {
+  cursor: pointer;
+}
+
 
 /*Social_Media*/
 
@@ -64,7 +68,7 @@ h2 {
 .artstation,
 .instagram,
 .linkedin {
-  width: 40px; 
+  width: 3.5vh; 
   filter: invert(100%);
   padding: 11px;
   margin: 5px; 
@@ -178,4 +182,3 @@ nav.contact a:hover {
     font-size: 4vw;
   }
 }
-
