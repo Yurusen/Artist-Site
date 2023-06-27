@@ -1,0 +1,356 @@
+body {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/634fbcb6-ff52-49e3-b54c-9c22d0f9c456/dfzvfvm-e2195c99-9b5d-4035-99e4-41f7d3b1d0e5.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYzNGZiY2I2LWZmNTItNDllMy1iNTRjLTljMjJkMGY5YzQ1NlwvZGZ6dmZ2bS1lMjE5NWM5OS05YjVkLTQwMzUtOTllNC00MWY3ZDNiMWQwZTUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.yild6ZV_JJLLEWlKDCBiO6_KBdl1nAOia77mRdKnJts');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  color: whitesmoke;
+  margin: 0 auto;
+  text-align: center;
+  font-family:"rieven-uncial"; /*affects all body - may need to change?*/
+  }
+h1 {
+  font-size: 7vh;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+  font-family: "aviano-royale", serif;
+  }
+a:hover h1 {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+h2 {
+  font-size: 5vh;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+  font-family: "aviano-royale", serif;
+}
+h3 {
+  font-size: 3vh;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+  font-family: "aviano-royale", serif;
+  word-spacing: 0.0em;
+}
+h4 {
+  font-size: 2vh;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+  font-family: "aviano-royale", serif;
+  word-spacing: 0.0em;
+}
+h5 { 
+  font-size: 2vh;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+  font-family: "aviano-royale", serif;
+  word-spacing: 0.0em;
+}
+body p {
+  font-family:"rieven-uncial";
+  font-weight: 300;
+  font-style: normal;
+  width: 95%;
+}
+body figcaption {
+  font-family:"rieven-uncial";
+  font-weight: 300;
+  font-style: normal;
+  width: 95%;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: goldenrod;
+}
+
+
+/*Social_Media*/
+
+
+.social_media a:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+  border: 2px dashed goldenrod;
+}
+.social_media {
+  position: fixed;
+  top: 83%;
+  right: 20px;
+  transform: translate(0, -50%);
+  display: flex;
+  flex-direction: column;
+}
+.artstation,
+.instagram,
+.linkedin {
+  width: 3.5vh; 
+  filter: invert(100%);
+  padding: 11px;
+  margin: 5px; 
+}
+
+.social_media a:focus img {
+  border: 2px dashed goldenrod;
+  outline: none;
+}
+
+
+/*Taskbar_All_Pages*/
+
+
+nav.taskbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0vh;
+  }
+nav.taskbar a {
+   color: whitesmoke;
+   font-size: 1.2vw;
+   font-family:"aviano";
+   list-style-type: none;
+   color: whitesmoke;
+   text-decoration: none;
+   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+   }
+nav.taskbar li {
+   margin-right: 15px;
+   padding: 25px;
+   display: inline-block;
+   }
+nav.taskbar ul li a {
+  text-decoration: none;
+}
+nav.taskbar a:hover {
+  color: goldenrod;
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+
+
+
+/*Showreel_Page*/
+
+
+.showreel_video {
+  max-width: 100%; 
+}
+.landscape_shot {
+  max-width: 100%;
+  height:auto;
+}
+.showreel {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.showreel:hover {
+  color: goldenrod;
+}
+.showreel_caption {
+  padding: 20px;
+  font-size: 20px
+}
+
+
+/*About_Me*/
+
+#about_me_profile_first {
+  width: 25%;
+  height: auto;
+  position: relative;
+  bottom: 30vh;
+  z-index: -1;
+}
+#about_me_profile {
+  width: 20%;
+  height: auto;
+  padding: 0 1.25%;
+  bottom: 100px;;
+  position: relative;
+  z-index: -1;
+}
+#biography {
+  width: 40%;
+  display: inline-block;
+  font-size: 0.75vw;
+  margin: 0 1.25%;
+  line-height: 2;
+  }
+  #education_titles {
+    padding: 2.5% 0 0 0;
+  }
+.grades_list {
+  margin: 0;
+  padding: 0;
+  }
+.grades li {
+  list-style-type: none;  
+  display: block; 
+ }
+.grades {
+  margin: 0.1%; 
+  padding: 0.4%;
+  display: inline-block;
+  width: 18%;
+  vertical-align: top; /* Added line */
+  }
+.grades ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  }
+.grades li {
+    font-size: 1.6vh;
+    word-spacing: 0.6em;
+    display: block;
+  }
+.grades .grade_list li h3 {
+    background: darkslategray;
+
+  }
+.grades .grade_list li h4 {
+    color: rgb(158, 178, 199);
+    font-family:"aviano";
+  }
+.grades .grade_list li h4 a {
+    text-decoration: none;
+    color: lightslategray;
+}
+.grades .grade_list li h4 a:hover {
+    color: goldenrod;
+  }
+.grades h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 5px;
+  width: 100%;
+}
+.grades .grade_list li:not(:first-child) {
+  text-decoration: none;
+}
+.grades .grade_list h5 {
+  color: lightslategray;
+  margin: 5px;
+}
+.grades .grade_list li {
+  padding: 0.75%;
+}
+
+/*Contact_Page*/
+
+
+#profile {
+  width: 300px;
+  position: relative;
+  left: 200px;
+  top: 130px;
+  }
+.contact_section {
+  position: relative;
+  right: 200px;
+  bottom: 175px;
+  font-size: 20px;
+}
+.contact_section p {
+  font-family: "aviano", serif !important;
+}
+.contact_section a {
+  color: whitesmoke;
+  text-decoration: none;
+  }
+.contact_section a:hover {
+  color: goldenrod;
+}
+#CV {
+  font-size: 22.5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: slategrey;
+  color: whitesmoke;
+  font-family: "aviano-royale", serif;
+}
+#CV:hover {
+  background-color: darkslategrey;
+  color: goldenrod;
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+#CV:active {
+  margin-top: 10px;
+  margin-bottom: 14px;
+  color: rgb(119, 102, 59);
+  background-color: rgb(26, 44, 44) !important;
+}
+
+
+/*Creature_Gallery*/
+
+
+.creature {
+  width: 50%;
+  height: auto; 
+  position: relative;
+  top: 50px;
+  left: 350px;
+  padding: 30px;
+}
+
+/*Character_Gallery*/
+h1 a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.isra_render {
+  width: 1280px;
+  padding: 2%;
+}
+.character {
+  width: 1280px;
+  padding: 2%;
+}
+.isra_t_pose {
+  width: 1280px;
+  padding: 2%;
+}
+.isra_2d {
+  width: 1280px;
+  padding: 2%;
+  padding-bottom: 6%;
+}
+
+/*Footer_Taskbar_All_Pages*/
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav.contact a {
+    color: lightgrey;
+    text-decoration: none;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+nav.contact li {
+  display: inline-block;
+  margin-right: 100px;
+  font-size: 1.05vw;
+  color: lightgrey;
+  opacity: 0.8;
+  font-family:"aviano";
+  }
+nav.contact a:hover {
+  color: goldenrod;
+}
+
+
+
+
