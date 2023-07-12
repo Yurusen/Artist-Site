@@ -1,0 +1,274 @@
+body {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/634fbcb6-ff52-49e3-b54c-9c22d0f9c456/dfzvfvm-e2195c99-9b5d-4035-99e4-41f7d3b1d0e5.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYzNGZiY2I2LWZmNTItNDllMy1iNTRjLTljMjJkMGY5YzQ1NlwvZGZ6dmZ2bS1lMjE5NWM5OS05YjVkLTQwMzUtOTllNC00MWY3ZDNiMWQwZTUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.yild6ZV_JJLLEWlKDCBiO6_KBdl1nAOia77mRdKnJts');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  color: whitesmoke;
+  margin: 0 auto;
+  text-align: center;
+  }
+main {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+h1 {
+  font-size: 7vh;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+  font-family: "aviano-royale", serif;
+  }
+a:hover h1 {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+h2 {
+  font-size: 5vh;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+  font-family: "aviano-royale", serif;
+}
+
+body p {
+  font-family:"rieven-uncial";
+  width: 95%;
+}
+body figcaption {
+  font-family:"rieven-uncial";
+  width: 95%;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: goldenrod;
+}
+
+
+/*Social_Media*/
+
+
+.social_media {
+  position: fixed;
+  top: 72%;
+  right: 1%;
+}
+.artstation,
+.instagram,
+.linkedin {
+  width: 35px; 
+  filter: invert(100%);
+  padding: 11px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column; 
+}
+.social_media a:hover img {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+.social_media a:focus img {
+  border: 2px dashed rgb(32, 60, 218);
+  outline: none;
+}
+
+
+/*Taskbar_All_Pages*/
+
+
+nav.taskbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height:8%;
+  background-color: rgba(0, 0, 0, 0.8);
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav.taskbar a {
+   font-size: 1.3rem;
+   font-family:"aviano";
+   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+nav.taskbar li {
+   margin-right: 15px;
+   padding: 25px;
+   display: inline-block;
+}
+nav.taskbar a:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+
+
+/*Footer_Taskbar_All_Pages*/
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+nav.contact a {
+    color: rgba(245, 245, 245, 0.705);
+}
+nav.contact li {
+    display: inline-block;
+    padding: 0 55px;
+    font-size: 20px;
+    color: rgba(245, 245, 245, 0.705);
+    opacity: 0.7;
+    font-family:"aviano"; 
+    list-style-type: none;   
+  }
+nav.contact {
+  display: block;
+  white-space: nowrap;
+}
+
+
+/*WEBSITE PAGES*/
+
+
+
+/*Showreel_Page*/
+
+.showreel {
+  color: crimson;
+}
+.showreel_video {
+  border: 5px solid red;
+}
+.landscape_shot {
+  width: 100%;
+  height: auto;
+}
+.showreel_caption {
+  padding: 20px;
+  font-size: 20px
+}
+
+
+/*About_Me*/
+
+#about_me_profile {
+  width: 25%;
+  height: auto;
+  position: relative;
+}
+#biography {
+  width: 40%;
+  font-size: 0.75vw;
+  line-height: 2;
+  position: relative;
+  bottom: 20px;
+  }
+.bio {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  z-index: -1;
+}
+table {
+  text-align: center;
+  margin: 0 auto;  
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+td {
+  padding: 7px;
+}
+#levels {
+  background-color: darkslategray;
+  font-family: "aviano-royale", serif;
+  font-size: 1.7rem;
+}
+#school a,
+#e-career a {
+  color: rgb(163, 180, 197);
+  font-family: aviano;
+  font-size: 1.25rem;
+}
+#school a:hover,
+#e-career a:hover {
+  color: goldenrod;
+}
+#year {
+  color: lightslategray;
+  font-family: aviano;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+
+/*Character_Gallery*/
+
+.isra img {
+  padding: 2%;
+  width: 500px;
+}
+
+
+
+
+/*Creature_Gallery*/
+
+
+.creature {
+  padding: 2%;
+  width: 500px;
+}
+
+
+
+/*Contact_Page*/
+
+
+#profile {
+  width: 300px;
+  height: auto;
+  position: relative;
+  left: 200px;
+  top: 130px;
+  z-index: -1;
+  }
+.contact_section {
+  position: relative;
+  right: 200px;
+  bottom: 175px;
+  font-size: 20px;
+}
+.contact_section p {
+  font-family: "aviano", serif !important;
+}
+#CV {
+  font-size: 22.5px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: slategrey;
+  color: whitesmoke;
+  font-family: "aviano-royale", serif;
+}
+#CV:hover {
+  background-color: darkslategrey;
+  color: goldenrod;
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+#CV:active {
+  margin-top: 10px;
+  margin-bottom: 14px;
+  color: rgb(119, 102, 59);
+  background-color: rgb(26, 44, 44) !important;
+}
+
+
