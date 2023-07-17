@@ -19,7 +19,12 @@ a {
 a:hover {
   color: goldenrod;
 }
-
+a:focus {
+  color: slategray;
+}
+a:active {
+  color: darkslategray;
+}
 
 /*Title*/
 
@@ -31,7 +36,7 @@ h1 {
   padding-left: 20px;
   padding-right: 20px;
 }
-h1:hover {
+h1 a:hover {
   transform: translate(-5px) scale(1.05);
   transition: transform 0.3s ease;
 }
@@ -47,8 +52,9 @@ h2 {
   margin-bottom: 0px;
   position: relative;
   top: 300px;
-
 }
+
+
 
 
 
@@ -91,6 +97,15 @@ nav.website_links li {
   font-size: 1.25rem;
   list-style-type: none;
   display: inline-block;
+}
+.website_links li a:hover {
+  color: goldenrod;
+}
+.website_links li a:focus {
+  color: slategray;
+}
+.website_links li a:active {
+  color: darkslategray;
 }
 
 /*Footer*/
